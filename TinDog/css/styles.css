@@ -1,0 +1,176 @@
+/* Tag Selectors */
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* Headings */
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-heading {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  height: 550px;
+  left: 55%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: Ubuntu;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Features */
+.feature-bg {
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+
+.lead {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+  margin: 3% 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  padding-bottom: 6rem;
+}
+
+.icon {
+  font-size: 4rem;
+  margin: 6rem 0 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  #testimonials {
+    background-color: #ef8172;
+  }
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cta */
+#cta {
+  padding: 7% 19%;
+}
+
+/* footer */
+#footer{
+line-height: 2;
+}
+
+/* Class Selectors */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
